@@ -107,7 +107,7 @@ class NativeAudioConfiguration {
       AppleAudioCategoryOption.allowBluetoothA2DP,
       AppleAudioCategoryOption.allowAirPlay,
     },
-    appleAudioMode: AppleAudioMode.videoChat,
+    appleAudioMode: AppleAudioMode.voiceChat,
   );
 
   static final playAndRecordReceiver = NativeAudioConfiguration(
