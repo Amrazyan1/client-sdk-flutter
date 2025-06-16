@@ -28,10 +28,10 @@ class Timeouts {
   });
 
   static const Timeouts defaultTimeouts = Timeouts(
-    connection: Duration(seconds: 10),
+    connection: Duration(seconds: 30),
     debounce: Duration(milliseconds: 100),
-    publish: Duration(seconds: 10),
-    peerConnection: Duration(seconds: 10),
-    iceRestart: Duration(seconds: 10),
+    publish: Duration(seconds: 30),
+    peerConnection: Duration(seconds: 30),
+    iceRestart: Duration(seconds: 30),
   );
 }
